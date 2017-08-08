@@ -20,7 +20,7 @@ $(document).ready(function(){
       attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/attribution">CARTO</a>'
   }).addTo(mymap);
 
-  L.marker([37.426907, -122.170670]).addTo(mymap);
+  L.marker([37.426907, -122.170670]).addTo(mymap).bindPopup("this is a sample marker!");
 //###ADDS LAYERS TO THE MAP###
 
   mymap.spin(true); //starts loading symbol
